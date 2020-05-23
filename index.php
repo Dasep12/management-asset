@@ -13,6 +13,7 @@ include 'koneksi/koneksi.php';
 	<h4>LOGIN FORM</h4>
 </div>
 	<div class="sub-body">
+		<?php echo md5(123) ?>
 		<center><img src="login/img/images.jpg" ></center><br>
 	<form action="login.php" method="POST">
 		<input type="hidden" name="tgl" value=<?= date('Y-m-d')?>>
