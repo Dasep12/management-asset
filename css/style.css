@@ -1,0 +1,1250 @@
+*{
+	margin:0;
+	padding:0;
+	list-style: none;
+	text-decoration: none;
+
+}
+.body{
+	background : #5252;
+}
+
+/*Header*/
+.page-header {
+  width: 100%;
+  display: block;
+  padding: 40px 30px;
+  margin-bottom:12px;
+  border-bottom: solid 3px red;
+  color: white;
+  background: rgba(45,60,80,1);
+
+}
+.page-header h2{
+  position: absolute;
+  font-family: sans-serif;
+  font-size: 16px;
+  top:10px;
+  left: 10px;
+  display: block;
+
+}
+
+.page-header span{
+  left: 10px;
+  position: absolute;
+  top: 45px;
+  margin-bottom: -12px;
+}
+
+.page-header img{
+  margin-left: 46%;
+  display: block;
+  position: relative;
+  top:0px;
+  margin-top: -30px;
+  margin-bottom: -40px;
+  bottom: 0px;
+  height:70px;
+  width:  130px;
+}
+.logout{
+  text-align: center;
+  position: relative;
+  color: white;
+  border-bottom-left-radius: 3px;
+  width: 5%;
+  margin-top: -3.2%;
+  margin-bottom: 20px;
+  margin-left:97.24%;
+  background: red;
+}
+.logout:hover{
+  color: silver;
+  opacity: 0.6;
+  cursor: pointer;
+}
+.logout a:hover{
+  color: #fff;
+}
+.logout a{
+  color: white;
+  text-decoration: none;
+  letter-spacing: 0.2em;
+}
+.btn-login{
+  position: absolute;
+  background: #fff;
+  height: 100px;
+  width: 90px;
+}
+
+/**/
+
+.sidebar {
+	position: absolute;
+	top: 82px;
+	float : left;
+	width:15%;
+	transition: 1s;
+	background:rgba(25,40,70,50);
+	height: 100%;
+}
+.sidebar .user{
+  text-transform: uppercase;
+}
+.sidebar img{
+	box-shadow:1px 2px gold;
+	margin-left: 40px;
+	margin-bottom: 20px;
+	border-radius: 4px;
+	margin-top:10px;
+	height: 70px;
+	width: 110px;
+}
+.footer .label-primary{
+  background: rgba(45,60,80,1);
+  font-size:  width: 100%;
+  position: absolute;
+  bottom: -119.6px;
+  text-align: right;
+  border: none;
+  letter-spacing: 0.1em;
+  right: 2px;
+}
+
+
+label{
+	padding:1px;
+	font-family: arial;
+	font-size: 13px;
+	margin-left: -45px;
+}
+#container{
+  padding: 0 0px;
+  margin-left: 14%;
+	width: 80%;
+}
+
+/*Accordion Menu*/
+
+#sidebar{
+	height: 102%;
+	background:rgba(25,40,70,50);
+	width: 205px;
+	margin: auto;
+	position: absolute;
+	top: 82px;
+}
+#sidebar h1{
+	color: white;
+	text-align: center;
+	padding: 3px 2px;
+	border-bottom: 3px solid #ddd;
+}
+#sidebar span {
+	letter-spacing: .5em;
+	position: relative;
+	top: -10px;
+	left: -12px;
+	border-bottom: 2px solid #ccc;
+	align-content: center;
+	text-align: center;
+	color: white;
+}
+#sidebar span:hover{
+	cursor: pointer;
+	text-decoration: inherit;
+}
+#sidebar h3 {
+	padding: 0 10px;
+	font-size: 14px;
+	line-height: 30px;
+  letter-spacing: .1em;
+  transition: .2s;
+	font-family: sans-serif;
+	color: #fff;
+  background: rgba(10,2,60,0.3);
+	border-bottom: 0.6px solid #ddd;
+	margin: auto;	
+}
+#sidebar h3:hover {
+  cursor: pointer;
+  border-left: 8px solid #000;
+}
+#sidebar li a {
+	color: white;
+	text-decoration: none;
+}
+#sidebar ul ul li{
+	padding: 6px 12px;
+	background: gray;
+	border-color:white;
+  border-bottom: 1px solid #ccc;
+	font-family: arial;
+	font-size: 11px;
+}
+#sidebar ul ul li:hover{
+	background: gray;
+	transition: all 0.10s; 
+	cursor: pointer;
+	border-left: 6px solid cyan;
+}
+#sidebar ul ul{
+	display: none;
+}
+/*Navbar atas*/
+.tanggal{
+	left: 15%;
+	top:-5%;
+	text-align: left;
+	height: 4%;
+	padding: 4px 4px;
+	position: relative;
+	background: gray;
+	color: white;
+	width: 16%;
+}
+.tanggal span{
+  width: 
+}
+.hari{
+  font-family: times new roman;
+  text-align: center;
+  background: red;
+  position: absolute;
+  left: 94.1%;
+  width: 6%;
+  top: -20px;
+}
+.wib{
+  text-align: center;
+  width: 40px;
+  z-index: 1;
+  background: red;
+  left: 90%;
+  position: relative;
+  top:-55px;
+}
+.tanggal span{
+	margin-left: 4px;
+	text-align: left;
+}
+.tanggal li {
+	background: gray;
+	padding: 4px 4px;
+	position: absolute;
+	top: 0%;
+	text-align: right;
+	width: 430%;
+	left: 101%;
+	height: 100%;
+}
+
+/*Tab Judul Surat Jalan*/
+.sub-type-1{
+  position:absolute;
+  z-index: 999;
+  margin-top: 46px;
+  width: 80%;
+  background: rgba(0,0,0,.1);
+  border-radius: 3px ;
+  margin-left: 49px;
+}
+.sub-type-1 .active{
+  background: #565689;
+}
+.sub-type-1 .active a {
+     color: #fff;  
+}
+.sub-type-1 li{
+  border-right: 1px solid #ccc;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  padding: 6px 6px;
+  float: left;
+}
+.sub-type-1 li a:hover{
+  color: #fff;
+  transition: .4s;
+  border-top: none;
+  background: rgba(0,0,0,1);
+}
+.sub-type-1 li a{
+  margin: 20px;
+}
+
+
+/**/
+.glyphicon-surat {
+  font-family: 'Glyphicons Halflings';
+  padding: 3px 3px;
+  color: red;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.note{
+  margin-left: -65%;
+	font-family: times new roman;
+	color: rgba(0,0,0,0.5);
+}
+.form-group-1 .group1 .form-control-1{
+	height: 23px;
+}
+
+/*Modal Untuk Surat Jalan*/
+
+
+.modal-content-1 {
+  position: absolute;
+  left: -100px;
+  background-color: #fff;
+  -webkit-background-clip: padding-box;
+          background-clip: padding-box;
+  border: 1px solid #999;
+  border: 1px solid rgba(0, 0, 0, .2);
+  border-radius: 6px;
+  outline: 0;
+  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+          box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+}
+
+
+.form-control-1 {
+  display: block;
+  padding: 5px;
+  z-index: 1;
+  margin-top: 2px;
+  margin-left: 2px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+       -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.form-control-1:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 2px 2px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+          box-shadow: inset 0 2px 2px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+}
+.form-control-1::-moz-placeholder {
+  color: #999;
+  opacity: 1;
+}
+.form-control-1:-ms-input-placeholder {
+  color: #999;
+}
+.form-control-1::-webkit-input-placeholder {
+  color: #999;
+}
+.form-control-1::-ms-expand {
+  background-color: transparent;
+  border: 0;
+}
+.form-control-1[disabled],
+.form-control-1[readonly],
+fieldset[disabled] .form-control-1 {
+  background-color: #eee;
+  opacity: 1;
+}
+.form-control-1[disabled],
+fieldset[disabled] .form-control-1 {
+  cursor: not-allowed;
+}
+textarea.form-control-1 {
+  height: auto;
+}
+input[type="search"] {
+  width: 10%;
+  height: 12px;
+  padding: 6px 12px;
+  font-size: 12px;
+  margin-top:12px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+       -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  input[type="date"].form-control-1,
+  input[type="time"].form-control-1,
+  input[type="datetime-local"].form-control-1,
+  input[type="month"].form-control-1 {
+    line-height: 34px;
+  }
+  input[type="date"].input-sm,
+  input[type="time"].input-sm,
+  input[type="datetime-local"].input-sm,
+  input[type="month"].input-sm,
+  .input-group-sm input[type="date"],
+  .input-group-sm input[type="time"],
+  .input-group-sm input[type="datetime-local"],
+  .input-group-sm input[type="month"] {
+    line-height: 30px;
+  }
+  input[type="date"].input-lg,
+  input[type="time"].input-lg,
+  input[type="datetime-local"].input-lg,
+  input[type="month"].input-lg,
+  .input-group-lg input[type="date"],
+  .input-group-lg input[type="time"],
+  .input-group-lg input[type="datetime-local"],
+  .input-group-lg input[type="month"] {
+    line-height: 46px;
+  }
+}
+.form-group-1 .form-control-1{
+  padding: 4px;
+  height: 3.5%;
+  left: 2px;
+  width: 48%;
+}
+.form-group-1 label{
+  margin-top: 2px;
+  margin-bottom:4px;
+  margin-left: 0px;
+}
+
+
+
+.form-control-2 {
+  display: block;
+  padding: 5px;
+  margin-top: 2px;
+  margin-left: 2px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+       -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.form-control-2:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+          box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+}
+.form-group-1 .form-control-2{
+ 
+ text-align: left;
+  width: 47%;
+  margin-top: -76px;
+  height: 95px;
+  position: absolute;
+  left: 50%;
+  top: 24.5%;
+}
+.detail {
+	position: absolute;
+	left: 50%;
+	top: 4%;
+}
+
+/**/
+.table-bordered-1 .form-control {
+  background: rgba(12,12,45,0.7);
+  color: #fff;
+}
+.table-bordered-1 .form-control-1 {
+  background: rgba(12,12,45,0.7);
+  color: #fff;
+
+}
+.table-bordered-1 {
+  margin-left: 20px;
+  position: absolute;
+  background: white;
+  box-shadow: 2px 2px 3px #000;
+  top: 120px;
+  border: 1px solid rgba(15,45,45,60);
+}
+
+.table-bordered-1 th{
+  background: rgba(15,45,45,60);
+  text-transform: uppercase;
+  border:1px solid #ccc;
+  text-align: center;
+  color: #fff;
+  padding-top: 4px;
+}
+.table-bordered-1 .th{
+  height: 5%;
+}
+.table-bordered-1 tbody tr:hover{
+  background: #ccc;
+}
+.table-bordered-1 td{
+  text-align: center;
+  padding: 3px 5px;
+  background:   rgba(15,45,45,60);
+}
+.sub-judul{
+  height: 5%;
+  width: 80%;
+  background: gray;
+}
+.sub-judul  li {
+  float: left;
+  background: #ccc;
+  border-left:1px solid #fff;
+  padding: 6px 4px;
+  display: flex;
+}
+.sub-judul li a{
+  color: #999;
+  margin-left: 0px;
+}
+.sub-judul-1 ul{
+  background: #000;
+  width: 101%;
+  margin-left: -5px;
+  border: 1px solid #ddd;
+  position: absolute;
+
+}
+.form-group label{
+  color:  #011;
+}
+.sub-judul-1 li {
+  transition: .3s;
+  float: left;
+  padding: 10px 10px;
+  z-index: 9999;
+  border-left: 1px solid #ddd;
+  position: relative;
+  background: #000;
+}
+.sub-judul-1 li a {
+  margin: 5px;
+  color: #fff;
+}
+.sub-judul-1 li:hover{
+  background: linear-gradient(#656,#ccc,#000);
+  border :none;
+  text-decoration: none;
+}
+.sub-judul-1 .active {
+  background: #fff;
+}
+.sub-judul-1 .active a{
+  border-radius: 3px;
+  color: #000;
+  border: 1px solid #ccc;
+}
+
+}
+
+.table-bordered-1 td{
+  width: 20px;
+}
+.sub-judul .active{
+  background: black;
+  color: #fff;
+}
+
+/*Table Stock Stiker*/
+.table-1 {
+  position: relative;
+  top: 30px;
+  box-shadow:1px 2px 6px black;
+  border: 1px dotted #ddd;
+}
+.table-1 thead tr th {
+  background: #023;
+  color: #fff;
+  padding: 12px;
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid #ccc;
+}
+.table-1 tbody tr td{
+  border: 1px solid #ccc;
+  font-size: 14px;
+  background: #fff;
+  text-align: center;
+  padding: 12px 12px;
+}
+.table-1 tfoot td{
+  padding: 12px;
+  background: #989;
+}
+
+/**/
+/*Css Daftar User*/
+
+.sub-container{
+  height: 400px;
+  width: 90%;
+  left: 50px;
+  box-shadow: 0px 4px 6px black;
+  position: relative;
+  z-index: 999;
+  background: #ccc;
+}
+.icon-user {
+  background: #ccc;
+  padding: 5px 5px;
+  width: 45px;
+  z-index: -111;
+ margin-top: -20px; 
+  margin-left: 45px;
+  font-size: 23.4px;
+  border-radius: 2px;
+  position: relative;
+  bottom: -34px;
+}
+.sub-container .form-control{
+  width: 80%;
+  border: none;
+  color: #fff;
+  background: rgba(12,12,45,0.7);
+  margin-left: 80px;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 3px;
+}
+.sub-container input[type='file']{
+  font-size: 16px;
+  margin-left: 80px;
+  color: #fff;
+   background: rgba(12,12,45,.7);
+  padding: 4px;
+  width: 80%;
+
+}
+.sub-container input[type='submit']{
+  margin-top: 15px;
+  border-bottom: 1px dotted #000;
+  margin-left: 86px;
+}
+.sub-container input[type='reset']{
+  margin-top: 15px;
+}
+.sub-container label{
+  right: -110px;
+  position: relative;
+}
+.header {
+  color: white;
+  background: rgba(15,45,45,60);
+  margin-bottom: 12px;
+}
+.header h3{
+  font-size: 25px;
+  margin-left: 3px;
+  padding: -4px -12px;
+  border-bottom: 1px dotted #fff;
+}
+/*
+  */
+
+/*Sub-type bagian barang*/
+.sub-type{
+  margin-top: 47px;
+  z-index: 1;
+  width: 78.5%;
+   background: rgba(0,0,0,.1);
+  border-radius: 3px ;
+  position: absolute;
+}
+.sub-type .active{
+  background: #565689;
+}
+.sub-type .active a {
+     color: #fff;  
+}
+.sub-type li{
+
+  letter-spacing: .2em;
+  border-right: 1px solid #ccc;
+  cursor: pointer;
+  padding: 6px 6px;
+  float: left;
+}
+.sub-type li a:hover{
+  color: #fff;
+  transition: .4s;
+  border-top: none;
+  background: rgba(0,0,0,1);
+}
+.sub-type li a{
+  margin: 20px;
+}
+
+/**/
+.add{
+  background: #556;
+  padding: 4px 5px;
+  position: absolute;
+  z-index: 99;
+}
+#sidebar .online{
+  font-size: 12px;
+  letter-spacing: .1em;
+  position: relative;
+  left: 2%;
+  color: #fff;
+  bottom: 20px;
+}
+.del{
+  position: relative;
+  left: 10%;
+  top: -33.5px;
+}
+/*Modal Untuk IP Komputer*/
+.avatar{
+  position: absolute;
+  width: 40%;
+  top: 12px;
+  justify-content: center;
+  align-items: center;  
+  left: 61%;
+}
+.avatar img{
+  border-radius: 12px;
+  width: 200px;
+  margin-top: 12px;
+  height: 160px;
+  border :2px  dotted #ccc;
+}
+#info{
+  background: #ccc;
+  width: 35%;
+  height: 60%;
+  right: 35%;
+  top: 240px;
+  border:2px solid #ddd;
+  box-shadow: 2px 5px solid #ddd;
+  text-align: left;
+  position: relative;
+  z-index: 999;
+  transition: 1s;
+  border-radius: 3px;
+  display: block;
+  opacity: 0.1;
+
+}
+#info h2{
+  position: relative;
+  margin-top: -2px;
+  margin-left: 4px;
+  color: #555;
+}
+#info ol {
+  margin-left: 15px;
+  margin-bottom:20px;
+}
+#info:target{
+  transform: translateX(200%);
+  opacity: 1;
+}
+.tutup {
+  position: relative;
+  top: -40px;
+  right: 4px;
+  float: right;
+  color:  gray;
+  z-index: 9999;
+}
+.tutup:hover{
+  color: #111;
+  text-decoration: none;
+  font-weight: bold;
+}
+.box-user {
+  background: rgba(0,255,60,.1);
+  position: relative;
+  width: 80%;
+  border-radius : 3px;
+  height: 400px;
+  margin-left: 60px;
+}
+.poto span{
+  width: 100%;
+  animation: gerak 1s; 
+  position: relative;
+  top : 60px;
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
+
+.poto {
+  border : 1px dotted #fff;
+  background: rgba(150,90,98,10);
+  height: 100%;
+  width: 30%;
+}
+.poto img{
+  position: relative;
+  height: 50%;
+  width: 80%;
+  border : 1px solid #fff;
+  margin-left: 11%;
+  margin-top: 30%;
+  border-radius: 9000px;
+}
+.info-user{
+  position: relative;
+  top: -80%;
+  left: 40%;
+}
+/*Header Menu Pinjam HH*/
+
+.sub-pinjam {
+  position: relative;
+  left: 60px;
+  top: 30px;
+  padding: 4px;
+  background: #ddd;
+}
+.sub-pinjam ul{
+  padding: 15px;
+}
+.sub-pinjam ul li{
+  position: relative;
+  background :#ddd;
+  float: left;
+  right: 20px;
+  top: -19px;
+  padding: 14.1px 40px;
+}
+/*Boxx Pinjam*/
+.jdl {
+  position: absolute
+  z-index:999;
+  width: 102%;
+}
+.jdl h3{
+  position: relative;
+  left: 22px;
+  font-size: 18px;
+  color: #123;
+  font-family: MS Serif;
+}
+.box-pinjam{
+  height: 540px;
+  overflow:auto;
+  border-top: 2px solid green; 
+  width: 1130px;
+  position: absolute;
+  left: 210px;
+  background: #fff;
+}
+.box-pinjam .btn{
+  border-radius: 3px;
+}
+/*Modal-form-Pinjam*/
+.pinjam ul li {
+  display: grid;
+}
+.form-new{
+  position: absolute;
+  left: 150px;
+  width: 70%;
+  border : none;
+  border-bottom :1px dotted blue;
+}
+.pinjam select{
+  color:  #000;
+}
+.pinjam label{
+  position: relative;
+  left : 35px;
+}
+.pinjam button{
+  width: 75%;
+  margin-left: 130px;
+}
+
+/*Box Tambah Data*/
+.box-header{
+  background: #ddd;
+  position: absolute;
+  z-index: 999;
+  width: 83.7%;
+  box-shadow: 1px 1px solid #ddd;
+  border :1px solid #ccc;
+  left: 209px;
+  top: 150px;
+}
+.box-header h5{
+  font-family: times new roman;
+  font-size: 19px;
+  margin-left: 12px;
+  color: rgba(12,56,65,1);
+}
+.box-add{
+  position: relative;
+  height: 520px;
+  left: 20px;
+  overflow: auto;
+  top: 60px;
+  border: 1px solid #ddd;
+  background: #fff;
+  width: 1130px;
+}
+.box-add form{
+  display: grid;
+}
+.box-add label{
+  margin-left: 40px;
+  position: relative;
+  z-index: 1;
+  font-weight: normal;
+  top: 35px;
+  text-align: left;
+  font-family: Franklin Gothic Book;
+  letter-spacing: .1em;
+}
+
+.box-input{
+  width: 20%;
+  margin-bottom: -20px;
+  padding: 6px;
+  border :1px solid #ccc;
+  position: relative;
+  left: 200px;
+  z-index: 1;
+}
+.btn-radio{
+  position: relative;
+  width: 50px;
+  left: 200px;
+  z-index: 9;
+  height: 60px;
+}
+.btn-radio span{
+  position: absolute;
+  margin-left: 12px;
+
+}
+.box-input:focus {
+  border-color: rgba(12,60,45,1);
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+          box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+}
+.box-input:hover{
+  box-shadow: 0px 0px 1px #000;
+}
+.tambah{
+  background: #ccc;
+  width: 100%;
+  padding: 5px;
+  position: relative;
+  z-index: 1;
+  top: 30px;
+}
+.back{
+  position: relative;
+  z-index: 999;
+  left: 95px;
+  top: -5px;
+
+}
+.notice {
+  position: relative;
+  top: 20px;
+  left: 200px;
+}
+.box-add input[type='submit']{
+  width: 8%;
+  border-radius: 1px solid;
+  padding: 4px;
+  letter-spacing: .2em;
+  position: relative;
+
+}
+/*Informasi Tabel*/
+.informasi{
+  position: relative;
+  z-index: 9;
+  left: 60px;
+  top: 50px;
+}
+.informasi .btn{
+  border-radius: 1px;
+  cursor: default;
+  letter-spacing: .1em;
+}
+.informasi span {
+  color: #011;
+  font-family: NSimSun;
+
+}
+/*menu stiker ribbon*/
+.menu-ribbon{
+  position: relative;
+  top: 45px;
+  z-index: 9999;
+  left: 22px;
+}
+.menu-ribbon .btn{
+  margin:-1.9px;
+  position: relative;
+  top: 2px;
+  border:1px solid #ccc;
+  border-bottom-right-radius: 1px;
+  border-bottom-left-radius: 1px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom: none;
+}
+.menu-ribbon .btn .active{
+  background: #ddd;
+}
+.grafik{
+  height: 480px;
+  width: 860px;
+  background: #fff;
+  border :1px solid rgba(0,0,0,.5);
+  position: relative;
+  top: 25px;
+  border-right: none;
+  border-top : none;
+  left: 80px;
+}
+.bulan{
+  position: relative;
+  width: 100%;
+}
+.bulan li {
+  top: 15px;
+  position: absolute;
+  left: -72px;
+}
+.bulan .btn {
+  position: relative;
+  cursor: default;
+  border-radius: 1px;
+}
+.bulan span {
+  font-style: italic;
+  color: rgba(0,0,0,.7);
+  margin-top: 12px;
+}
+.bulan .btn-warning{
+  margin-top: -9.8px;
+}
+.grafik-info{
+  position: absolute;
+  z-index: 9999;
+  height: 30px;
+  margin: auto;
+  padding: auto;
+  top: -19px;
+  left: 710px;
+
+}
+.grafik-info li {
+  float: left;
+  left: 12px;
+}
+.grafik-info li .btn{
+  border-radius: 1px;
+  position: relative;
+  left: 203px;
+  height: 18px;
+  padding: 0px 12px;
+}
+.form-cari-stiker{
+  position: relative;
+  top: -16px;
+}
+.form-cari-stiker .form-control{
+  width: 20%;
+  position: relative;
+  float: left;
+  top: -50px;
+  height: 30px;
+  margin-right: 60px;
+  left: 14%;
+}
+.form-cari-stiker label{
+  position: relative;
+  top: -50px;
+  font-weight: normal;
+  left: -137px;
+}
+.form-cari-stiker .btn {
+  position: relative;
+  left: 13.5%;
+  height: 30px;
+  top: -30px;
+}
+.fyi{
+  position: relative;
+  top: 40px;
+  left: 90px;
+  
+}
+.icon-profile {
+  height: 200px;
+  width: 300px;
+  background: #fff;
+  border: 1px solid #ddd;
+  position: relative;
+  left: 70%;
+  z-index: 99;
+  top: -130px;
+}
+.icon-profile img{
+  position: absolute;
+  height: 150px;
+  width: 200px;
+  top: 10px;
+  left: 50px;
+}
+.icon-profile input[type='file']{
+  background: #fff;
+  position: relative;
+  top: 170px;
+  left: 30px;
+  color: #000;
+  opacity: .5;
+  cursor: pointer;
+  border-radius: 12px;
+}
+/*Baik*/
+.baik {
+  position: relative;
+  background: #fff;
+  width: 40%;
+  left: 50px;
+  height: 280px;
+  border-radius: 12px;
+  top: 20px;
+}
+.baik h4 {
+  height: 15%;
+  padding: 12px;
+  color: #fff;
+  margin-bottom: 1px;
+  margin-top: -12px;
+  background: #000;
+  text-align: center;
+}
+.baik table th {
+  border : 1px solid #ddd;
+  text-align: center;
+  background: #000;
+  color: #fff;
+}
+.baik tbody tr:hover{
+  background: #ddd;
+}
+
+/*Rusak*/
+.rusak {
+  position: relative;
+  background: #fff;
+  width: 40%;
+  left: 50px;
+  height: 280px;
+  border-radius: 12px;
+  top: 20px;
+}
+.rusak h4 {
+  height: 15%;
+  padding: 12px;
+  color: #fff;
+  margin-bottom: 1px;
+  margin-top: -12px;
+  background: #000;
+  text-align: center;
+}
+.rusak table th {
+  border : 1px solid #ddd;
+  text-align: center;
+  background: #000;
+  color: #fff;
+}
+.rusak tbody tr:hover{
+  background: #ddd;
+}
+
+/*Service*/
+.service {
+  position: absolute;
+  top: 50px;
+  background: #fff;
+  width: 40%;
+  left: 55%;
+  height: 280px;
+  border-radius: 12px;
+  top: 132px;
+}
+.service h4 {
+  height: 15%;
+  padding: 12px;
+  color: #fff;
+  margin-bottom: 1px;
+  margin-top: -12px;
+  background: #000;
+  text-align: center;
+}
+.service table th {
+  border : 1px solid #ddd;
+  text-align: center;
+  background: #000;
+  color: #fff;
+}
+.service tbody tr:hover{
+  background: #ddd;
+}
+/*Cadangan*/
+.cadangan {
+  position: absolute;
+  top: 400px;
+  background: #fff;
+  width: 40%;
+  left: 55%;
+  height: 280px;
+  border-radius: 12px;
+}
+.cadangan h4 {
+  height: 15%;
+  padding: 12px;
+  color: #fff;
+  margin-bottom: 1px;
+  margin-top: -12px;
+  background: #000;
+  text-align: center;
+}
+.cadangan table th {
+  border : 1px solid #ddd;
+  text-align: center;
+  background: #000;
+  color: #fff;
+}
+.cadangan tbody tr:hover{
+  background: #ddd;
+}
+.upload{
+  padding: 8px 8px;
+  border :1px solid #ddd;
+}
+.upload .form-control-12{
+
+}
